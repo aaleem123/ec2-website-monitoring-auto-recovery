@@ -1,0 +1,69 @@
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	background: linear-gradient(to bottom right, #fefefe, #f8e8ff, #e8f8ff);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+	text-align: center;
+	padding: 2rem;
+  }
+
+  .header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	margin-bottom: 40px;
+  }
+
+  .header h1 {
+	font-size: 3rem;
+	font-family: 'CustomCanterbury', 'MedievalSharp', cursive;
+  }
+
+  .header img {
+	height: 64px;
+	width: auto;
+  }
+
+  .cat-container {
+	position: relative;
+	width: 90vw;
+	max-width: 960px;
+	aspect-ratio: 16 / 9;
+	margin-bottom: 10px;
+  }
+
+  .cat-container iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 12px;
+  }
+
+  .after-video {
+	font-size: 1.2rem;
+	color: #333;
+	max-width: 80%;
+	font-family: 'Times New Roman', serif;
+	margin-top: 20px;
+  }
+
+  .niftybutton-instagram {
+	width: 40px;
+	height: 40px;
+	margin: 0 10px;
+	background-color: #0d1044;
+	border-radius: 50%;
+  }
+  
+  .social-media-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px; 
+  }
